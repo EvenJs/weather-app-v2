@@ -1,0 +1,21 @@
+.weatherblock {
+  // border: solid 1px red;
+  background-color: rgba(87, 190, 238, 0.507);
+  height: 140px;
+  width: 140px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 5px 5px #888888;
+
+  .block-header {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+  }
+
+  .block-value {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+  }
+}

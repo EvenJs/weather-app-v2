@@ -1,0 +1,16 @@
+.detail-page {
+  position: relative;
+  &-header {
+    display: flex;
+    justify-content: center;
+    margin: 1% 2%;
+  }
+
+  &-body {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+}
